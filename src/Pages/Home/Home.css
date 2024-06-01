@@ -1,0 +1,65 @@
+.home-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: orangered;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .search-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .search-filters input,
+  .search-filters select,
+  .search-filters button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .search-filters button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .search-filters button:hover {
+    background-color: gray;
+  }
+  
+  .products {
+    margin: 40px 0;
+  }
+  
+  .product-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  
+  .product-slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  .product-slider > * {
+    flex: 0 0 auto; /* Prevent shrinking */
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+  }
+  
